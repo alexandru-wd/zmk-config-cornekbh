@@ -113,6 +113,21 @@
             bindings = <&kp BACKSPACE>;
             key-positions = <20 21>;
         };
+
+        question_mark {
+            bindings = <&kp QUESTION>;
+            key-positions = <32 33>;
+        };
+
+        right_ctrl {
+            bindings = <&kp RCTRL>;
+            key-positions = <32 31>;
+        };
+
+        left_ctrl {
+            bindings = <&kp LCTRL>;
+            key-positions = <28 27>;
+        };
     };
 
     //
