@@ -178,9 +178,9 @@
             // | GUI | CTRL | SHFT | LWR | SPC |   | ENT | RSE  | BKSP | ALT | ESC |
 
             bindings = <
-&kp LA(N1)      &kp LA(N2)      &kp LG(SPACE)      &kp LS(LA(LG(Z)))  &kp LC(LG(LS(LA(N6))))  &none                &kp LG(N1)      &kp LG(N2)      &kp LG(N3)        &kp LG(N9)  &none   &trans
-&kp LA(LS(N1))  &kp LS(LA(N2))  &kp LS(LA(LG(C)))  &kp LS(LA(LG(N)))  &kp LA(LG(BACKSPACE))   &kp LG(TAB)          &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW      &kp RIGHT   &trans  &trans
-&kp LA(COMMA)   &kp LA(SLASH)   &kp LS(LA(TAB))    &kp LS(LA(LG(B)))  &kp LS(LG(LA(GRAVE)))   &kp LS(LA(LG(X)))    &kp LG(GRAVE)   &kp LC(A)       &none             &none       &trans  &trans
+&kp LA(N1)      &kp LA(N2)      &kp LG(SPACE)      &kp LS(LA(LG(Z)))  &kp LC(LG(LS(LA(N6))))  &none                &kp LG(N1)      &kp LG(N2)      &kp LG(N3)        &kp LG(N9)  &kp LS(LC(EQUAL))  &trans
+&kp LA(LS(N1))  &kp LS(LA(N2))  &kp LS(LA(LG(C)))  &kp LS(LA(LG(N)))  &kp LA(LG(BACKSPACE))   &kp LG(TAB)          &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW      &kp RIGHT   &trans             &trans
+&kp LA(COMMA)   &kp LA(SLASH)   &kp LS(LA(TAB))    &kp LS(LA(LG(B)))  &kp LS(LG(LA(GRAVE)))   &kp LS(LA(LG(X)))    &kp LG(GRAVE)   &kp LC(A)       &none             &none       &trans             &trans
                                                    &kp LGUI           &trans                  &kp SPACE            &kp RET         &mo 3           &kp LEFT_CONTROL
             >;
         };
@@ -189,8 +189,8 @@
             display-name = "System";
             bindings = <
 &kp LA(LS(LG(V)))  &kp LC(LS(COMMA))   &kp C_VOLUME_UP    &kp C_BRIGHTNESS_INC  &kp C_AL_SCREENSAVER  &none             &kp F6  &kp F7  &kp F8  &kp F9  &kp F10      &none
-&kp LS(LC(SLASH))  &kp LS(LC(PERIOD))  &kp C_VOLUME_DOWN  &kp C_BRIGHTNESS_DEC  &none                 &studio_unlock    &none   &none   &none   &none   &none        &none
-&kp LS(LC(J))      &kp LS(LC(S))       &kp C_MUTE         &none                 &none                 &none             &none   &none   &none   &none   &bootloader  &none
+&kp LS(LC(SLASH))  &kp LS(LC(PERIOD))  &kp C_VOLUME_DOWN  &kp C_BRIGHTNESS_DEC  &kp LC(LS(LG(N4)))    &studio_unlock    &none   &none   &none   &none   &none        &none
+&kp LS(LC(J))      &kp LS(LC(S))       &kp C_MUTE         &none                 &kp LS(LG(N4))        &none             &none   &none   &none   &none   &bootloader  &none
                                                           &none                 &none                 &none             &none   &none   &none
             >;
         };
